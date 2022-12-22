@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="default.css">
+    <style>
+        .zone {
+            border: 2px solid #0ac024;
+            margin: 2em 0 0 2em;
+            width: 500px;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+
+        .draggable {
+            margin: 0 1em 0 1em;
+            width: 100px;
+            height: 100px;
+        }
+
+        .blue {
+            background: rgb(49, 193, 255);
+        }
+
+        .red {
+            background: rgb(246, 62, 62);
+        }
+
+        .green {
+            background: rgb(79, 255, 82);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="zone_1" class="zone">
+    </div>
+    <div id="zone_2" class="zone">
+        <div id="draggable_1" class="red draggable"></div>
+        <div class="green draggable"></div>
+        <div id="draggable_2" class="blue draggable"></div>
+    </div>
+    <script>
+        //add new data drag-elem-id
+        var dragElemIdList = []
+        class dragElem {
+            constructor(elem) {
+                this.elem = elem
+                this.init()
+                this.ondrag()
+            }
+
+            init() {
+                this.elem.setAttribute('draggable', true)
+                this.elemId = dragElemIdList.length
+                this.elem.dataset.dragElemId = this.elemId
+                dragElemIdList.push(true)
+            }
+
+            ondrag() {
+                this.elem.ondragstart = e => {
+                    e.dataTransfer.setData('elemId', e.target.dataset.dragElemId)
+                }
+            }
+        }
+        class dragZone {
+            constructor(zone) {
+                this.zone = zone
+                this.init()
+            }
+
+            init() {
+                this.ondragover()
+                this.ondrop()
+            }
+
+            ondragover() {
+                this.zone.ondragover = e => {
+                    e.preventDefault()
+                }
+            }
+
+            ondrop() {
+                this.zone.ondrop = e => {
+                    e.preventDefault()
+                    let elem = e.dataTransfer.getData('elemId')
+                    if (e.target.dragElemId != elem && e.target.draggable == false) {
+                        e.target.append(document.querySelector('[data-drag-elem-id="' + elem + '"]'))
+                        e.dataTransfer.clearData()
+                    }
+                }
+            }
+        }
+        new dragElem(document.getElementById('draggable_1'))
+        new dragElem(document.getElementById('draggable_2'))
+        new dragElem(document.getElementsByClassName('draggable')[1])
+        new dragZone(document.getElementById('zone_1'))
+        new dragZone(document.getElementById('zone_2'))
+    </script>
+</body>
+
+</html>

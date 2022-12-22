@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Bot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <h1 class='text-white'>Telegram bot in Js</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <select id="method" class='form-control form-select form-select-lg mb-3 text-white bg-dark'
+                    aria-label='.form-select-lg example'>
+                    <option value="getUsers">getUsers</option>
+                    <option value="getUpdates">getUpdates</option>
+                    <option value="sendMessage">sendMessage</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <input type="text" id="text" placeholder="To send message" class='form-control form-control-lg'>
+            </div>
+            <div class="col-2">
+                <button type='button' id='button' class='btn btn-success btn-lg'>Click</button>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-dark table-striped">
+                <thead id='thead'></thead>
+                <tbody id='tbody'></tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script>
+        function JsBotXhr(method, functionName = false, dataArray = false) {
+            const XHR = new XMLHttpRequest();
+            const Telegram = 'https://api.telegram.org/bot'
+            const token = '1797710995:AAGOjZ_9qabOkeqRbg_rzykA4MIcDWbSUiw'
+
+            if (dataArray == false) {
+                XHR.open('GET', Telegram + token + '/' + method, true);
+                XHR.send();
+            }
+
+            XHR.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    if (functionName == false) {
+                        return JSON.parse(this.responseText)
+                    } else {
+                        functionName(JSON.parse(this.responseText))
+                    }
+                }
+            }
+        }
+
+
+        const button = document.getElementById('button')
+        const method = document.getElementById('method')
+        const text = document.getElementById('text')
+
+        button.addEventListener("click", function () {
+            if (method.value == 'getUpdates') {
+                JsBotXhr('getUpdates', function (data) {
+                    document.getElementById('thead').innerHTML = '<tr><th>#</th><th>chat_id</th><th>First_name</th><th>User_name</th><th>date</th><th>text</th></tr>'
+                    document.getElementById('tbody').innerHTML = ''
+                    var count = 0
+                    for (var value of data.result) {
+                        count++
+                        var chat_id = value.message.chat.id
+                        var username = value.message.chat.username
+                        var first_name = value.message.chat.first_name
+                        var text = value.message.text
+                        var date = new Date(value.message.date * 1000)
+
+                        var tr = '<tr>' +
+                            '<td>' + count + '</td>' +
+                            '<td>' + chat_id + '</td>' +
+                            '<td>' + username + '</td>' +
+                            '<td>' + first_name + '</td>' +
+                            '<td>' + date.getHours() + ':' + date.getMinutes() + '</td>' +
+                            '<td>' + text + '</td>' +
+                            '</tr>';
+
+                        document.getElementById('tbody').innerHTML += tr
+                    }
+                })
+            } else if (method.value == 'getUsers') {
+                JsBotXhr('getUpdates', function (data) {
+                    document.getElementById('thead').innerHTML = '<tr><th>#</th><th>chat_id</th><th>User_name</th><th>First_name</th></tr>'
+                    document.getElementById('tbody').innerHTML = ''
+
+                    var users = [];
+                    for (var user_info in data.result) {
+                        var sh = data.result[user_info].message.chat
+                        var val = [sh.username, sh.first_name]
+
+                        users[sh.id] = val
+                    }
+                    var tr = ''
+                    for (var chat in users) {
+                        tr += '<tr><td><input type="checkbox" data-chat_id=' + chat + '></td><td>' + chat + '</td><td>' + users[chat][0] + '</td><td>' + users[chat][1] + '</td></tr>'
+                    }
+                    document.getElementById('tbody').innerHTML += tr
+                });
+            } else if (method.value == 'sendMessage') {
+
+            }
+        });
+
+    </script>
+</body>
+
+</html>

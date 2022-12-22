@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div>
+        <button onclick="change(1)"><b>✙</b></button>
+        <span id="counter">0</span>
+        <button onclick="change(-1)"><b>ー</b></button>
+    </div>
+
+    <div>
+        <h1 id="changeBlock">Hello</h1>
+        <button onclick="{
+        let text = prompt('Enter text')
+        if(text.trim() != '') document.querySelector('#changeBlock').innerHTML = text}">Click to change text</button>
+    </div>
+
+
+    <!-- <button id="reload" style="display: block;">Reload</button>
+    <a href="#" class="link">Nothing</a>
+    <div id="log"></div>  -->
+    <!-- <script src="./main.js" type="module"></script> -->
+    <script>
+        let change = (num) => {
+            let block = document.querySelector("#counter")
+            block.innerHTML = parseInt(block.innerHTML) + num
+        }
+    </script>
+</body>
+
+</html>
