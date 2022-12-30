@@ -1,4 +1,3 @@
-package code_with_mosh.part_one;
 import java.util.Scanner;
 public class MortgageCalc {
     public static void main(String[] args) {

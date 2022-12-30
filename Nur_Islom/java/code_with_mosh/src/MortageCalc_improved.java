@@ -1,4 +1,3 @@
-package code_with_mosh.part_one;
 import java.text.NumberFormat;
 import java.util.Scanner;
 public class MortageCalc_improved {

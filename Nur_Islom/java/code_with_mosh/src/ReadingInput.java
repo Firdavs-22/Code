@@ -1,4 +1,3 @@
-package code_with_mosh.part_one;
 //import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
