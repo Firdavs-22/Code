@@ -1,3 +1,5 @@
+package PartOne;
+
 import java.text.NumberFormat;
 import java.util.Scanner;
 public class MortageCalc_improved {

@@ -1,8 +1,10 @@
+package PartOne;
+
 import java.util.Scanner;
 public class FizzBuzz {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("You are in FizzBuzz program." +
+        System.out.println("You are in PartOne.FizzBuzz program." +
                 "If you want to exit type CTRL + C or CTRL + F2");
         while (true) {
             System.out.println("Number: ");
@@ -12,7 +14,7 @@ public class FizzBuzz {
             // if divisible by 3 => Buzz
             boolean isDivisibleByFive = num % 5 == 0;
             if (isDivisibleByFive && isDivisibleByThree) {
-                System.out.println("FizzBuzz");
+                System.out.println("PartOne.FizzBuzz");
             } else if (isDivisibleByThree) {
                 System.out.println("Buzz");
             } else if (isDivisibleByFive) {
