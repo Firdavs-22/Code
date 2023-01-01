@@ -4,9 +4,12 @@ import java.text.NumberFormat;
 
 public class MortgageReport {
 
+    private final NumberFormat currency;
     private MortgageCalculator calculator;
+
     public MortgageReport(MortgageCalculator calculator) {
         this.calculator = calculator;
+        currency = NumberFormat.getCurrencyInstance();
     }
 
 
@@ -14,16 +17,12 @@ public class MortgageReport {
         System.out.println();
         System.out.println("Payment Schedule");
         System.out.println("----------------");
-        for (short month = 1; month <= calculator.getPeriod() * MortgageCalculator.MONTHS_IN_YEAR; month++) {
-            double balance = calculator.calculateBalance(month);
-            System.out.println(NumberFormat.getCurrencyInstance().format(balance));
-        }
+        for (double balance : calculator.getRemainingBalance())
+            System.out.println(currency.format(balance));
     }
-
     public void printMortgage() {
-        calculator = new MortgageCalculator(100_000, 4.2F, (byte) 10);
         double mortgage = calculator.calculateMortgage();
-        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+        String mortgageFormatted = currency.format(mortgage);
         System.out.println();
         System.out.println("Mortgage");
         System.out.println("--------");

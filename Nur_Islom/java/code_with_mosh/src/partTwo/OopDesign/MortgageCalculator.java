@@ -1,8 +1,8 @@
 package partTwo.OopDesign;
 
 public class MortgageCalculator {
-    final static byte MONTHS_IN_YEAR = 12;
-    final static byte PERCENT = 100;
+    private final static byte MONTHS_IN_YEAR = 12;
+    private final static byte PERCENT = 100;
     private int principal; /*this is an amount of money that we lend*/
     private float annualInterest; /*this is an annual percentage of money we should pay*/
     private byte period; /*this is a period of time we want to take a loan for*/
@@ -31,9 +31,11 @@ public class MortgageCalculator {
 
         return balance;
     }
-
-    public byte getPeriod() {
-        return period;
+    public double[] getRemainingBalance(){
+        var balances = new double[getNumberOfPayments()];
+        for (short month = 1; month <= balances.length; month++)
+            balances[month - 1] = calculateBalance(month);
+        return balances;
     }
     private short getNumberOfPayments() {
         return (short) (period * MONTHS_IN_YEAR);
