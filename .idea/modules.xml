@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Code.iml" filepath="$PROJECT_DIR$/.idea/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/Firdavs/Java/Firdavs.iml" filepath="$PROJECT_DIR$/Firdavs/Java/Firdavs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Firdavs/Java/Learn3/Learn3.iml" filepath="$PROJECT_DIR$/Firdavs/Java/Learn3/Learn3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nur_Islom/java/code_with_mosh/code_with_mosh.iml" filepath="$PROJECT_DIR$/Nur_Islom/java/code_with_mosh/code_with_mosh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nur_Islom/java/java.iml" filepath="$PROJECT_DIR$/Nur_Islom/java/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nur_Islom/java/web_scrap/web_scrap.iml" filepath="$PROJECT_DIR$/Nur_Islom/java/web_scrap/web_scrap.iml" />
     </modules>
   </component>
 </project>
