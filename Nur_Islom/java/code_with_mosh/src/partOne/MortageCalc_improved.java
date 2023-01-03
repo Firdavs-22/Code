@@ -1,4 +1,4 @@
-package PartOne;
+package partOne;
 
 import java.text.NumberFormat;
 import java.util.Scanner;

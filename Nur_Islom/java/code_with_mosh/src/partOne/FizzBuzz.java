@@ -1,4 +1,4 @@
-package PartOne;
+package partOne;
 
 import java.util.Scanner;
 public class FizzBuzz {

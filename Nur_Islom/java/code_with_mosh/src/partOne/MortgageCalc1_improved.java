@@ -1,8 +1,8 @@
-package PartOne;
+package partOne;
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class MortgageCalc2 {
+public class MortgageCalc1_improved {
     public static void main(String[] args) {
 
         int principal = (int) readNumber("Principal: ", 1_000, 1_000_000);
@@ -13,13 +13,7 @@ public class MortgageCalc2 {
 
         double mortgage = calculateMortgage(principal, annualInterest, period);
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
-        System.out.println("Monthly payment: " + mortgageFormatted);
-        System.out.println("Payment Schedule:");
-        while (principal > 0) {
-            principal -= mortgage;
-            mortgage = calculateMortgage(principal, annualInterest, period);
-            System.out.println(NumberFormat.getCurrencyInstance().format(principal));
-        }
+        System.out.println("Mortgage: " + mortgageFormatted);
     }
     public static double readNumber(String prompt, double min, double max){
         Scanner scan = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package PartOne;
+package partOne;
 import java.util.Scanner;
 public class MortgageCalc1 {
     public static void main(String[] args) {

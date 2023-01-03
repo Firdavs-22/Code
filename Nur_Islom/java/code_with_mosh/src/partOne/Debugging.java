@@ -1,4 +1,4 @@
-package PartOne;
+package partOne;
 
 public class Debugging {
     public static void printNumbers(int limit){
