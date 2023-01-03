@@ -1,7 +1,17 @@
 package partTwo.Inheritance;
 
-public class UIControl {
+public class UXControl {
     private boolean isEnabled = true;
+    public UXControl(boolean isEnabled) {
+        this.isEnabled = isEnabled;
+        /*System.out.println("UIControl");*/
+    }
+    public UXControl(){
+        isEnabled = false;
+    }
+    public void render(){
+
+    }
     public void enable(){
         isEnabled = true;
     }

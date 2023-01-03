@@ -1,9 +1,8 @@
-package partTwo.Inheritance;
-
-public class ClassBox  extends UXControl {
+package partTwo.Abstract;
+public class TextBox extends UIControl {
 public String text; // a field
 
-        public ClassBox() {
+        public TextBox() {
                 super(true); /*super should be first in constructor*/
                 /*private members of superclass or parent class or base class are not visible or inherited to the child class or subclass*/
                 /*System.out.println("ClassBox");*/
