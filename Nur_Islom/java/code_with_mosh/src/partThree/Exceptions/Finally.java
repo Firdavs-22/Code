@@ -1,4 +1,4 @@
-package partThree;
+package partThree.Exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
