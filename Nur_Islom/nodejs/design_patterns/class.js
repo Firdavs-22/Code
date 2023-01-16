@@ -17,6 +17,7 @@ Person.older = function (person1, person2){
 
 
 /*class method*/
+/*
 class Person {
     constructor(name, surname, age) {
         this.name = name;
@@ -31,9 +32,9 @@ class Person {
     }
 }
 
-/*The two implementations are completely interchangeable, but the real killer feature of the
+/!*The two implementations are completely interchangeable, but the real killer feature of the
 class syntax is the possibility of extending the Person prototype using the extend and
-super keywords. Let's assume we want to create a PersonWithMiddlename class:*/
+super keywords. Let's assume we want to create a PersonWithMiddlename class:*!/
 
 class PersonWithMiddlename extends Person{
     constructor(name, middlename, surname, age) {
@@ -43,4 +44,23 @@ class PersonWithMiddlename extends Person{
     getFullName() {
         return super.getFullName() + ' ' + this.middlename;
     }
+}*/
+
+
+class Person{
+    constructor(age, name, weight) {
+        this.age = age;
+        this.name = name;
+        this.weight = weight;
+    }
 }
+
+class Student extends Person{
+    constructor(age, name, weight, loan) {
+        super(age, name, weight);
+        this.loan = loan;
+
+    }
+}
+let human = new Person(21, 'Islom', 62);
+let student = new Student(21, 'Islom', 62, 69000000)
