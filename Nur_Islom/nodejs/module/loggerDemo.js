@@ -1,6 +1,7 @@
 const print = require('./logger');
-// const {log} = require("./module/logger");
 
-console.log(__filename);
-// console.log(__dirname)
-print('Me');
+// console.log(__filename);
+// console.log(__dirname);
+
+print(typeof print);
+print(module)

@@ -7,7 +7,7 @@ function DelayedGreeter(name) {
     }).bind(this), 500);
 };*/
 DelayedGreeter.prototype.greet = function() {
-    setTimeout( () => console.log('Hello' + this.name), 500);
+    setTimeout( () => console.log('Hello ' + this.name), 500);
 };
 const greeter = new DelayedGreeter('World');
 greeter.greet();
