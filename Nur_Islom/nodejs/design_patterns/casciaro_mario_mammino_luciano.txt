@@ -24,3 +24,15 @@ resemble
 enhance
 leverage
 entry
+bandwidth
+pseudo
+socket
+trivial
+concurrency
+pool
+idle
+lay
+compromise
+poll
+reactor
+callback

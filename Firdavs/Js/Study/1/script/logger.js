@@ -1,10 +1,10 @@
-export let log = text => { 
+export let logger = text => {
     let line = true
     if(typeof text == 'object'){
         for (let key in text) {
             if (typeof text[key] == 'object'){
                 line = false
-                log(text[key])
+                logger(text[key])
             } else{
                 write(key+': '+text[key]);
             }
