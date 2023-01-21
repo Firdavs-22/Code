@@ -1,0 +1,115 @@
+man sudo_root
+
+// for centering a windows
+<application type="normal">
+  <position>
+    <x>center</x>
+    <y>center</y>
+  </position>
+</application>
+=> /.config/openbox/rc.xml
+openbox --reconfigure
+
+// burn iso into usb
+cat path/to/[name].iso > /dev/sd[x]
+Tip: Find out the name of your USB drive with lsblk. Make sure that it is not mounted.
+Run the following command, replacing /dev/sdx with your drive, e.g. /dev/sdb. (Do not append a partition number, so do not use something like /dev/sdb1): 
+
+// for formatting a usb
+df
+sudo umount /dev/partition
+sudo mkfs.ntfs /dev/partition => To format a USB drive using the NTFS file system run:
+sudo mkfs.vfat /dev/partition => To format a USB drive with FAT32 file system, use:
+sudo mkfs.exfat /dev/partition => To format a USB drive in accordance with the exFAT file system use:
+
+sudo fsck /dev/partition => Confirm the formatting process has completed successfully:
+
+// Install GParted Tool
+sudo apt install gparted 
+sudo gparted
+
+// for installing debian package
+sudo dpkg -i name.deb
+
+// for uninstalling packages
+sudo apt-get remove "package" && sudo apt-get autoremove
+
+// for installing package with snap store
+sudo snap install "package"
+
+// for installing package with apt-get
+sudo apt install "package"
+
+// for daily update use this
+sudo apt update && sudo apt upgrade
+
+// for seeing wifi password
+nmcli device wifi show-password
+
+// typing all commands with semicolon runs all the commands in the sequence irrespective of whether the previous command ran successfully or failed.
+command A; command B
+
+// command B will only execute if command A fails. Likewise, if command A runs successfully, command B won't execute.
+command A || command B
+
+// the AND operator executes the next command in a sequence only when its previous command runs successfully.
+command A && command B
+
+// for seeing RAM
+grep MemTotal /proc/meminfo
+
+// for seeing CPU
+cat /proc/cpuinfo
+
+// from which source installed a package
+type "package"
+
+// uninstall fully package installed from snap store
+sudo snap remove "package"
+
+// shutting down lubuntu
+sudo shutdown -h now
+
+// restart panel on lubuntu
+sudo cp /usr/share/lxqt/panel.conf ~/.config/lxqt/
+
+// to install japanese keyboard on lubuntu
+sudo apt install language-pack-ja --install-suggests
+sudo apt install fcitx-mozc --install-suggests
+
+// for deleting empty directories
+rm -d <directory>
+
+// for deleting non-empty directories
+rm -r <directory>
+
+// Ignore any prompt when deleting a write-protected file.
+rm -f <directory>
+
+// Ignore any prompt when deleting a write-protected non-empty folder.
+rm -rf
+
+// Output a prompt before deleting every file.
+rm -i
+
+// Output a prompt only once before deleting more than three files.
+rm -I
+
+// Wildcard that represents multiple characters.
+rm *
+
+// Wildcard that represents a single character.
+rm ?
+
+// Remove an empty subdirectory and its parent directory.
+rmdir -p
+
+// Print the information that the specified directory was deleted.
+rmdir -v
+
+// Using ventoy
+sudo ./VentoyWeb.sh
+
+// installing new font
+sudo mv SLIDA.ttf /usr/share/fonts
+sudo fc-cache -f -v
