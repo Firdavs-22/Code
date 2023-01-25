@@ -111,5 +111,7 @@ rmdir -v
 sudo ./VentoyWeb.sh
 
 // installing new font
-sudo mv SLIDA.ttf /usr/share/fonts
+sudo mv *.ttf /usr/share/fonts
 sudo fc-cache -f -v
+
+// 802.11n wifi uchun driver
