@@ -1,0 +1,28 @@
+@media (max-width: 530px) {
+    .nav .nav-btn {
+        width: 13rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .tel {
+        margin: 0 2rem 0 0;
+    }
+}
+
+@media (max-width: 690px) {
+    header {
+        height: 100px;
+        padding: 0 2rem;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.6rem;
+    }
+}

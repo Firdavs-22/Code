@@ -1,0 +1,19 @@
+:root {
+    --font-color: #212529;
+    --card-color: #ffffff;
+    --body-color: #f6f3ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: -webkit-gradient( linear, left top, right bottom, from(#af5e94), to(#5949f2) ) fixed;
+    font-size: 1rem;
+    color: var(--font-color);
+    width: 100%;
+}
+

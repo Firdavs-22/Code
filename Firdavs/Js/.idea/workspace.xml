@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70ec17e8-d20d-45e5-b9b1-a2ea45c8d0ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java/Learn2/array/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Learn2/cycledowhile/CycleDoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Learn2/switchcase/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Learn3/src/Test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creation/ToDo2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creation/ToDo2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creation/ToDo2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fun/LiveCss/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProject/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProject/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MiniProject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/Test/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Learn3/out/production/Learn3/ObjectSort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Learn3/out/production/Learn3/ObjectSort/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/MiniProjects/out/production/MiniProjects/xogame/XOGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/MiniProjects/out/production/MiniProjects/xogame/XOGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/MiniProjects/src/xogame/XOGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/MiniProjects/src/xogame/XOGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation/DragAndDrop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/DragAndDrop/DragAndDrop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/DragAndDrop/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/ToDo1/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/data/todos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/ToDo1/data/todos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/ToDo1/data/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/ToDo1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/script/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Creation/ToDo1/script/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -27,6 +47,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JAauaLk3fHoQU3mrC56MJCDW20" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Development/code/Firdavs/Js&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -47,6 +71,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\code\Firdavs\Js\Creation" />
+      <recent name="D:\Development\code\Firdavs\Js\Creation\DragAndDrop" />
+      <recent name="D:\Development\code\Firdavs\Js\MiniProject" />
       <recent name="D:\Development\code\Firdavs\Js\Study\1" />
     </key>
   </component>
@@ -62,6 +89,12 @@
       <workItem from="1671523595956" duration="60000" />
       <workItem from="1671622956061" duration="4999000" />
       <workItem from="1672144266761" duration="4000" />
+      <workItem from="1673893009623" duration="16000" />
+      <workItem from="1673893033504" duration="2252000" />
+      <workItem from="1673952658685" duration="31000" />
+      <workItem from="1673976330858" duration="30000" />
+      <workItem from="1674119805254" duration="1504000" />
+      <workItem from="1674647969212" duration="3798000" />
     </task>
     <servers />
   </component>

@@ -57,7 +57,7 @@ public class XOGame implements ActionListener {
         setFirst_player();
     }
 
-    
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
