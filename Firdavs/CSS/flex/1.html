@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <style>
+        .box-block {
+            border: black 2px solid;
+            display: flex;
+            margin-bottom: 1em;
+            width: 500px;
+            height: 250px;
+        }
+
+        .box {
+            border: red 1px solid;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .flex-block {
+            width: 400px;
+        }
+
+        .flew-flow {
+            flex-flow: column wrap;
+        }
+
+        .flex {
+            flex: 1 1 auto;
+        }
+
+        .flex-2 {
+            flex: 2 1 auto;
+        }
+
+        .flex-one {
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flew-flow box-block">
+        <div class="box">box one</div>
+        <div class="box">box two</div>
+        <div class="box">box three</div>
+    </div>
+
+    <div class="box-block flex-block">
+        <div class="box flex-2">box one</div>
+        <div class="box flex">box two</div>
+        <div class="box flex">bow three</div>
+    </div>
+
+    <div class="box-block center">
+        <div class="box flex-one">box one</div>
+        <div class="box flex-one">box two</div>
+        <div class="box flex-one">box three</div>
+    </div>
+
+
+</body>
+</html>
