@@ -1,3 +1,5 @@
+package packageOne;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.FileNotFoundException;
@@ -7,7 +9,7 @@ public class FileManager {
     public static void main(String[] args) {
 //        create("Hallo.txt",study.direct);
 //        write(study.direct+"Hallo.txt","Hello worldajpojpsdk!!! \r\n kaposjfpivspd ");
-//        read(study.direct+"Hallo.txt");
+        read(study.direct+"Hallo.txt");
 //        infoFile(study.direct+"Hallo.txt");
 //        deleteFile(study.direct+"Hallo.txt");
 //        deleteFolder(study.direct);
