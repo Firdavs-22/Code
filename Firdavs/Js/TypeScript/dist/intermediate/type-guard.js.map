@@ -1,0 +1,1 @@
+{"version":3,"file":"type-guard.js","sourceRoot":"","sources":["../../src/intermediate/type-guard.ts"],"names":[],"mappings":"AAGA,SAAS,MAAM,CAAC,GAAgB;IAC5B,OAAQ,GAAY,CAAC,IAAI,KAAK,SAAS,CAAA;AAC3C,CAAC;AAED,SAAS,IAAI,CAAC,MAAmB;IAC7B,IAAI,MAAM,CAAC,MAAM,CAAC,EAAE;QAChB,OAAO,MAAM,CAAC,IAAI,EAAE,CAAC;KACxB;IACD,OAAO,MAAM,CAAC,GAAG,EAAE,CAAC;AACxB,CAAC"}
