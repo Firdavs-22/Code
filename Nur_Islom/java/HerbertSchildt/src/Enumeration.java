@@ -1,5 +1,6 @@
 public class Enumeration {
     public static void main(String[] args) {
+        /* you don’t instantiate an ap using new*/
         Apple ap;
 
         ap = Apple.Jonathan;
