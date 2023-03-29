@@ -1,7 +1,7 @@
 # in this file we are going to learn reading and writing files
 
 # Here's the list of commands which you need to remember:
-# close()       => Closes the file. Like File->Save..in your editor.
+# close()       => Closes the file. Like FileClass->Save..in your editor.
 # read()        => Reads the contents of the file. You can assign the result to a variable.
 # readline()    => Reads just one line of a text file.
 # truncate()    => Empties the file. Watch out if you care about the file.

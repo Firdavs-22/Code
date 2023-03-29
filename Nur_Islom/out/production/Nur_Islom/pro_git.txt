@@ -211,7 +211,7 @@ As an example, if you commit and then realize you forgot to stage the changes in
 
 You end up with a single commit—the second commit replaces the results of the first.
 
-	----Unstaging a Staged File----
+	----Unstaging a Staged FileClass----
 
  The next two sections demonstrate how to wrangle your staging area and working directory changes. The nice part is that the command you use to determine the state of those two areas also reminds you how to undo changes to them. For example, let’s say you’ve changed two files and want to commit them as two separate changes, but you accidentally type git add * and stage them both. How can you unstage one of the two? The git status command reminds you:
 
