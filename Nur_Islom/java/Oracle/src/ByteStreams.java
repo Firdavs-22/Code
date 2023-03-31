@@ -20,3 +20,5 @@ public class ByteStreams {
         }
     }
 }
+/*
+* Byte streams are used for reading and writing binary data, such as images, audio files, or any file format that isn't text-based. They operate on data in terms of bytes (8-bit chunks) and are part of the java.io package. The main classes for byte streams in Java are InputStream and OutputStream and their subclasses, such as FileInputStream, FileOutputStream, BufferedInputStream, and BufferedOutputStream. Byte streams are useful when you're working with raw binary data, but they are not suitable for reading and writing character-based data.*/

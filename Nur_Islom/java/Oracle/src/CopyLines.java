@@ -10,9 +10,15 @@ public class CopyLines {
 
         try {
             inputStream = new BufferedReader(new FileReader("/home/geek/read.txt"));
-            outputStream = new PrintWriter(new FileWriter("/home/geek/read.txt"));
-        } finally {
+            outputStream = new PrintWriter(new FileWriter("/home/geek/write.txt"));
 
+            String l;
+            while ((l = inputStream.readLine()) != null){
+                outputStream.write(l);
+            }
+        } finally {
+            if (inputStream != null) inputStream.close();
+            if (outputStream != null) outputStream.close();
         }
     }
 }
