@@ -1,0 +1,1 @@
+{"version":3,"file":"mapped-type.js","sourceRoot":"","sources":["../../src/mixtype/mapped-type.ts"],"names":[],"mappings":";;AAYA,MAAM,WAAW,GAAe;IAC5B,KAAK,EAAE;QACH,OAAO,EAAE,KAAK;QACd,SAAS,EAAE,IAAI,IAAI,EAAE;QACrB,IAAI,EAAE,OAAO;KAChB;CACJ,CAAA;AAED,SAAS,cAAc,CAAC,SAAqB;;IACzC,OAAO,CAAC,GAAG,CAAC,MAAA,SAAS,CAAC,IAAI,0CAAE,OAAO,CAAC,CAAC;AACzC,CAAC"}

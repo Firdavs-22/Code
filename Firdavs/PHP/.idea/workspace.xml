@@ -5,14 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8147c28e-1cbe-4ed7-80d1-986c9022405d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java/Learn3/src/Test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Learn3/out/production/Learn3/ObjectSort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Learn3/out/production/Learn3/ObjectSort/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/MiniProjects/out/production/MiniProjects/xogame/XOGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/MiniProjects/out/production/MiniProjects/xogame/XOGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/MiniProjects/src/xogame/XOGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/MiniProjects/src/xogame/XOGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint-keyof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint-keyof.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/default-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/default-type.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/generic-syntax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/generic-syntax.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/keyof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/keyof.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/basic-generic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/basic-generic.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/generic-constraint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/generic-constraint.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/type-scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/type-scope.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/type-scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/type-scope.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/why-generic.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/conditional.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/conditional.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/extend.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/infer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/infer.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/mapped-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/mapped-type.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/typeof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/typeof.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/tasks/type-scope.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/type-scope.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/conditional.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/extend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/infer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/mapped-type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/typeof.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/1/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/1/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/1/foot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/1/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegramBot/TelegramBot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegramBot/otherCode/Telegram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegramBot/run.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/generic-syntax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/generic-syntax.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/why-generic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/why-generic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/why-generic.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/basic/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/basic/functions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/constraint-keyof.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/constraint-keyof.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/constraint.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/default-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/default-type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/generic-syntax.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/generic-syntax.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/keyof.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/keyof.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/tasks/basic-generic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/tasks/basic-generic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/tasks/generic-constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/tasks/generic-constraint.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/type-scope.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/expand-exclude.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/why-generic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/why-generic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Test/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +82,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
   <component name="ProjectId" id="2KJRBvpOJ8CIFNM1FzXl98Bh6bF" />
   <component name="ProjectLevelVcsManager">
@@ -52,12 +105,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programs/Development/OSPanel/modules/php/PHP_8.1/php.exe&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Development/code/Firdavs/PHP&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -67,6 +121,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\code\Firdavs\PHP\TelegramBot" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,6 +138,18 @@
       <workItem from="1673867046914" duration="769000" />
       <workItem from="1673868029147" duration="1647000" />
       <workItem from="1673870074529" duration="119000" />
+      <workItem from="1679912230265" duration="24000" />
+      <workItem from="1680055156419" duration="320000" />
+      <workItem from="1680064226818" duration="8384000" />
+      <workItem from="1680145197593" duration="665000" />
+      <workItem from="1680206737797" duration="600000" />
+      <workItem from="1680274845672" duration="1086000" />
+      <workItem from="1680279933513" duration="16000" />
+      <workItem from="1680280069228" duration="37000" />
+      <workItem from="1680495440542" duration="496000" />
+      <workItem from="1680603737623" duration="3000" />
+      <workItem from="1680684643589" duration="2524000" />
+      <workItem from="1681280994197" duration="1009000" />
     </task>
     <servers />
   </component>

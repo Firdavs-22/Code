@@ -38,3 +38,4 @@ const objData: ModelData<Array<number>> = {
     value: [123],
 }
 
+export {}
