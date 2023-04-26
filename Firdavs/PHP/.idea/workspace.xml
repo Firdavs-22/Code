@@ -5,68 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8147c28e-1cbe-4ed7-80d1-986c9022405d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint-keyof.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint-keyof.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/constraint.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/default-type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/default-type.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/generic-syntax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/generic-syntax.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/keyof.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/keyof.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/basic-generic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/basic-generic.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/generic-constraint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/generic-constraint.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/type-scope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/tasks/type-scope.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/type-scope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/type-scope.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/why-generic.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/conditional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/conditional.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/extend.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/infer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/infer.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/mapped-type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/mapped-type.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/typeof.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/mixtype/typeof.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/tasks/type-scope.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/type-scope.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/conditional.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/extend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/infer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/mapped-type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/typeof.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/1/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/1/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/1/foot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/1/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TelegramBot/TelegramBot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TelegramBot/otherCode/Telegram.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TelegramBot/run.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/basic/functions.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/generic-syntax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/generic-syntax.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/why-generic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/dist/generic/why-generic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/dist/generics/why-generic.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/basic/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/basic/functions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/constraint-keyof.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/constraint-keyof.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/constraint.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/default-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/default-type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/generic-syntax.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/generic-syntax.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/keyof.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/keyof.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/tasks/basic-generic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/tasks/basic-generic.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/tasks/generic-constraint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/tasks/generic-constraint.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/type-scope.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/mixtype/expand-exclude.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Js/TypeScript/src/generics/why-generic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Js/TypeScript/src/generic/why-generic.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Test/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramBot/TelegramBot.php" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramBot/TelegramBot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramBot/run.php" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramBot/run.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,28 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Development/code/Firdavs/PHP&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Development/code/Firdavs/PHP",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\code\Firdavs\PHP\TelegramBot" />
@@ -150,6 +94,10 @@
       <workItem from="1680603737623" duration="3000" />
       <workItem from="1680684643589" duration="2524000" />
       <workItem from="1681280994197" duration="1009000" />
+      <workItem from="1681282799403" duration="2506000" />
+      <workItem from="1681460080209" duration="2000" />
+      <workItem from="1681887266984" duration="8741000" />
+      <workItem from="1682187413113" duration="93000" />
     </task>
     <servers />
   </component>
