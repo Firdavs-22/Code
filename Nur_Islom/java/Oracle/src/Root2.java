@@ -24,8 +24,6 @@ public class Root2 {
         scanner.close();*/
 
         /*%[argument_index$][flags][width][.precision]conversion*/
-        double number = 12345.6789;
-        System.out.format("Formatted number: %+10,.2f%n", number);
 
     }
 }
