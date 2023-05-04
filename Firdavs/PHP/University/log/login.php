@@ -12,7 +12,7 @@
 <h3>
     Log In | Sing Up
 </h3>
-<form action="./profile.php" method="post" enctype="multipart/form-data">
+<form action="profile.php" method="post" enctype="multipart/form-data">
     <p>
         <label for="name">Name: </label>
         <input id="name" type="text" name="name" required placeholder="name">

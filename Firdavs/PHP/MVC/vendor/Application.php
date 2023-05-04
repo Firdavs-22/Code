@@ -39,11 +39,11 @@ class Application
             if (method_exists($controller, $action_function)) {
                 $controller->{$action_function}($data_get);
             } else {
-                echo '<h1><b>404</b> error page bot found</h1>';
+                echo '<h1><b>404</b> error page not found</h1>';
                 exit();
             }
         } else {
-            echo '<h1><b>404</b> error page bot found</h1>';
+            echo '<h1><b>404</b> error page not found</h1>';
             exit();
         }
     }

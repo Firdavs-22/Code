@@ -7,9 +7,9 @@ use models\Users;
 class SiteController extends Controller
 {
     public function index()
-    {   
-        $query = new Query();
-        // $query->select('fisrname');
+    {
+        // $query = new Query();
+        // $query->select('firstname');
         // $this->pre($query);
 
         // $user = new Users();
@@ -23,15 +23,16 @@ class SiteController extends Controller
         // $stat = Users::find()->where(['static=1','static=2','static=3']);
         // $this->pre($stat);
 
-        $this->render('index',[
-            'text' => '1334'
+        $this->render('index', [
+            'text' => '1234'
         ]);
     }
 
-    private function pre($die)
+    private function pre($data)
     {
         echo '<pre>';
-        print_r($die);
+        print_r($data);
+        echo '</pre>';
         die();
     }
 }

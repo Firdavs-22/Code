@@ -35,7 +35,7 @@ if (
 } else {
     ?>
     <p>You entered incorrect form, please enter again</p>
-    <a href="./login.php">Log In | Sing Up</a>
+    <a href="login.php">Log In | Sing Up</a>
     <?php
 }
 

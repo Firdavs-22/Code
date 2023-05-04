@@ -10,7 +10,7 @@
 <body>
 
 
-<a href="./login.php">Log In | Sing Up</a>
+<a href="login.php">Log In | Sing Up</a>
 
 
 </body>
