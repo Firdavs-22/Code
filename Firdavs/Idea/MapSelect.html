@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #mapid { height: 500px; }
+    </style>
+</head>
+<body>
+    <div id="mapid"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(mymap);
+
+        var marker;
+
+        function onMapClick(e) {
+            var lat = e.latlng.lat;
+            var lon = e.latlng.lng;
+
+            if(marker) { // on subsequent clicks
+                mymap.removeLayer(marker);
+            }
+
+            marker = L.marker([lat, lon]).addTo(mymap);
+
+            alert("Latitude: " + lat + "\nLongitude: " + lon);
+        }
+
+        mymap.on('click', onMapClick);
+    </script>
+</body>
+</html>

@@ -9,6 +9,8 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\EntryFrom;
+use app\models\Country;
 
 class SiteController extends Controller
 {
@@ -62,6 +64,48 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
+    }
+
+    public function actionApp(){
+
+        return $this->render('app',[
+            'app' => Yii::$app
+        ]);
+    }
+    public function actionCountry()
+    {
+        $countries = Country::find()->orderBy('name')->all();
+        $country = Country::findOne('US');
+        echo $country->name;
+//        $country->name = 'U.S.A.';
+//        $country->save();
+        die();
+    }
+
+    /**
+     * @param $message
+     * @return string
+     */
+    public function actionSay($message = 'World')
+    {
+        return $this->render('say', [
+            'message' => $message
+        ]);
+    }
+
+    public function actionEntry()
+    {
+        $model = new EntryFrom();
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            return $this->render('entry-confirm', [
+                'model' => $model
+            ]);
+        } else {
+            return $this->render('entry', [
+                'model' => $model
+            ]);
+        }
     }
 
     /**
