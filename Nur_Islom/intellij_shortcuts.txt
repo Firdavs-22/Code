@@ -1,6 +1,0 @@
---Show usages
-You can view the list of all usages of a class, method or variable across the whole project, and quickly navigate to the selected item. Place the caret at a symbol and press:   Ctrl+Alt+7 
-
---Find and replace
-Press   Ctrl+F   to display the search bar. Press   Ctrl+R   to add another field where you can type the replace string.
-In the Find in Files dialog, you can switch to replace by pressing   Ctrl+Shift+R  . Similarly, press   Ctrl+Shift+F   to hide the Replace with field and switch to regular search.
